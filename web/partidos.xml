@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="partidos.xsl" type="text/xsl"?>
 
+<!--
+Autor: Axel Alvarez Santos
+Asignatura: LMGSI
+Unidad: UD 4
+Tarea: Tarea evaluativa 2 - XSLT
+-->
+
 <club_voleibol>
 
     <!-- Información de la tienda -->
