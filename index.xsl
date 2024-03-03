@@ -7,8 +7,15 @@ Unidad: UD 4
 Tarea: Tarea evaluativa 2 - XSLT
 -->
 
+<!-- 
+En este caso no sería necesario el documento xsl ya que no hacemos uso del xml para obtener información.
+De todas formas, dejamos la conexión hecha por si en un futuro quisésemos sacarle partido al xml de alguna dorma.
+-->
+
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<!-- Establecemos la salida como un documento HTML con el sistema de doctype "about:legacy-compat". -->
 <xsl:output method="html" doctype-system="about:legacy-compat" />
+<!-- Iniciamos el template que coincide con el elemento raíz '/club_voleibol'. -->
 <xsl:template match='/club_voleibol'>
 <html lang="es">
 
